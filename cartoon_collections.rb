@@ -38,9 +38,9 @@ def find_valid_calls(planeteer_calls)
     while index < valid_calls.length do
       if string == valid_calls[index]
         new_array << string
+        return new_array
       end
       index += 1
     end
-    new_array
   end
 end
