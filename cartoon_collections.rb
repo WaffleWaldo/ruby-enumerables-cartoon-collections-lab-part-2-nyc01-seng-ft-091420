@@ -42,4 +42,5 @@ def find_valid_calls(planeteer_calls)
       index += 1
     end
     new_array
+  end
 end
