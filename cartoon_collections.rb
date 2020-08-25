@@ -41,4 +41,5 @@ def find_valid_calls(planeteer_calls)
       index += 1
     end
   end
+  return nil
 end
